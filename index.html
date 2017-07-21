@@ -9,6 +9,11 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500i,600,600i,700,700i,800,800i,900|Source+Sans+Pro:300,300i,400,400i,600i,700,900" rel="stylesheet">
   <!-- StyleSheets -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+
+
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <!-- Font css -->
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
@@ -17,6 +22,7 @@
 
   <!-- BX Slider -->
   <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+
 </head>
 
 <body>
@@ -80,8 +86,8 @@
             </div>
             <div class="header-btns">
               <!-- Header buttons -->
-              <a class="btn btn-download" href="#">Download</a>
-              <a class="btn btn-tour" href="#">Take a tour
+              <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+              <a class="btn btn-tour wow fadeInRight" href="#">Take a tour
                 <i class="fa fa-angle-down"></i>
               </a>
             </div>
@@ -118,11 +124,11 @@
         <div class="row">
           <div class="col-md-6">
             <!-- About iphone -->
-            <div class="about-iphone">
+            <div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
               <img src="images/about-iphone.png" alt="iphone" />
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
             <!-- why choose us -->
             <div class="choose-us-title">
               <h2> Why choose us</h2>
@@ -133,7 +139,7 @@
               <!-- why choose us desc -->
               <div class="choose-us-desc">
                 <!-- choose us item 1 -->
-                <div class="choose-us-item">
+                <div class="choose-us-item wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="1s">
                   <!-- choose us item icon -->
                   <div>
                     <i class="fa fa-bolt"></i>
@@ -145,7 +151,7 @@
                   </p>
                 </div>
                 <!-- choose us item 2 -->
-                <div class="choose-us-item">
+                <div class="choose-us-item wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="1s">
                   <!-- choose us item icon -->
                   <div>
                     <i class="fa fa-bullhorn"></i>
@@ -157,7 +163,7 @@
                   </p>
                 </div>
                 <!-- choose us item 3 -->
-                <div class="choose-us-item">
+                <div class="choose-us-item wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="1s">
                   <!-- choose us item icon -->
                   <div>
                     <i class="fa fa-flag-o"></i>
@@ -179,7 +185,7 @@
     <div class="testimonial-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 wow bounceInDown">
             <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
 
               <!-- indicators -->
@@ -252,8 +258,8 @@
   <section class="features" id="features">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <div class="section-title">
+        <div class="col-md-10 col-md-offset-1" >
+          <div class="section-title wow fadeIn" data-wow-duration="1s">
             <h2>Features</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
@@ -265,7 +271,7 @@
     <div class="features-inner-wrapper">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
             <!-- left feature item 01 -->
             <div class="left-feature-item">
               <!-- Icon -->
@@ -306,13 +312,13 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 wow bounceIn" data-wow-duration="1s">
             <div class="feature-iphone">
               <img src="images/iphone-02.png" alt="feature iphone" />
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
             <!-- right feature item 01 -->
             <div class="right-feature-item">
 
@@ -366,7 +372,7 @@
   <!-- Purchase Now -->
   <section class="purchase-now">
     <div class="container">
-      <div class="row">
+      <div class="row wow fadeInLeftBig" data-wow-duration="1s">
         <div class="col-md-9">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
@@ -392,7 +398,7 @@
         </div>
       </div>
     </div>
-    <div class="screen-slider">
+    <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
       <div class="container">
         <div class="row">
           <div class="bxslider">
@@ -417,7 +423,7 @@
   <!-- Counters -->
   <section class="counter">
     <div class="counter-overlay">
-      <div class="container">
+      <div class="container wow bounceInLeft" data-wow-duration="1s">
         <div class="row text-center">
           <div class="col-md-3">
             <div class="counter-item">
@@ -496,7 +502,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
           <img src="images/download-screen.png" alt="download screen" />
         </div>
       </div>
@@ -505,7 +511,7 @@
 
   <!-- Available On -->
   <section class="available-on">
-    <div class="container">
+    <div class="container wow bounceInRight" data-wow-duration="1s">
       <div class="row">
         <div class="col-md-6">
           <div class="available-title">
@@ -555,7 +561,7 @@
 
   <!-- Contact Us -->
   <section class="contact-us" id="contact">
-    <div class="container">
+    <div class="container wow bounceIn">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <div class="section-title">
@@ -567,7 +573,7 @@
         </div>
       </div>
     </div>
-    <div class="contact-us-form">
+    <div class="contact-us-form wow bounceIn">
       <div class="container">
         <form class="form">
           <div class="row">
@@ -586,7 +592,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="social-icons">
+            <div class="social-icons wow bounceInLeft">
               <ul>
                 <li>
                   <a href="#"><i class = "fa fa-facebook"></i></a>
@@ -634,6 +640,8 @@
   <!-- add js counter -->
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/wow.min.js"></script>
+
   <!-- custom animation js -->
   <script type="text/javascript" src="js/custom.js"></script>
 </body>
