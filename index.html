@@ -19,7 +19,39 @@
 <body>
 
   <!-- Header -->
-  <header class="header">
+  <header class="header" id="home">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="#"></a>
+          <!-- Small size logo -->
+          <img src="images/logo-small.png" alt="logo" />
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-item" href="#home">HOME</a></li>
+            <li><a class="nav-item" href="#about">ABOUT</a></li>
+            <li><a class="nav-item" href="#features">FEATURES</a></li>
+            <li><a class="nav-item" href="#screens">SCREENS</a></li>
+            <li><a class="nav-item" href="#download">DOWNLOAD</a></li>
+
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
     <div class="header-overlay">
 
       <div class="container">
@@ -62,7 +94,7 @@
   </header>
 
   <!-- About Us -->
-  <section>
+  <section id = "about">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -213,7 +245,7 @@
   </section>
 
   <!-- Features -->
-  <section class="features">
+  <section class="features" id="features">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -343,7 +375,7 @@
   </section>
 
   <!-- Screens -->
-  <section class="screens">
+  <section class="screens" id="screens">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
@@ -435,11 +467,11 @@
   </section>
 
   <!-- Download Now -->
-  <section class = "download-now">
-    <div class = "container">
-      <div class = "row">
-        <div class ="col-md-10 col-md-offset-1">
-          <div class = "section-title">
+  <section class="download-now" id = "download">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="section-title">
             <h2>Download Now</h2>
             <p>
               Vestibulum congue eros ac neque dignissim, vel imperdiet neque consectetur. Maecenas condimentum cursus maximus. Praesent eu diam efficitur
@@ -448,19 +480,19 @@
         </div>
       </div>
     </div>
-    <div class = "container">
-      <div class = "row">
-        <div class = "col-md-8 col-md-offset-2">
-          <img src = "images/download-screen.png" alt="download screen" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <img src="images/download-screen.png" alt="download screen" />
         </div>
       </div>
     </div>
   </section>
 
   <!-- Available On -->
-  <section class = "available-on">
-    <div class = "container">
-      <div class = "row">
+  <section class="available-on">
+    <div class="container">
+      <div class="row">
         <div class="col-md-6">
           <div class="available-title">
             <h2>Available On</h2>
@@ -469,12 +501,12 @@
             </p>
           </div>
         </div>
-        <div class = "col-md-6">
-          <div class = "row">
+        <div class="col-md-6">
+          <div class="row">
             <a href="#">
-              <div class ="col-md-4 no-padding">
-                <div class = "available-on-item">
-                  <i class = "fa fa-apple"></i>
+              <div class="col-md-4 no-padding">
+                <div class="available-on-item">
+                  <i class="fa fa-apple"></i>
                   <div class="available-on-inner">
                     <h2>iOS</h2>
                   </div>
@@ -482,9 +514,9 @@
               </div>
             </a>
             <a href="#">
-              <div class ="col-md-4 no-padding">
-                <div class = "available-on-item">
-                  <i class = "fa fa-android"></i>
+              <div class="col-md-4 no-padding">
+                <div class="available-on-item">
+                  <i class="fa fa-android"></i>
                   <div class="available-on-inner">
                     <h2>ANDROID</h2>
                   </div>
@@ -492,9 +524,9 @@
               </div>
             </a>
             <a href="#">
-              <div class ="col-md-4 no-padding">
-                <div class = "available-on-item">
-                  <i class = "fa fa-windows"></i>
+              <div class="col-md-4 no-padding">
+                <div class="available-on-item">
+                  <i class="fa fa-windows"></i>
                   <div class="available-on-inner">
                     <h2>WINDOWS</h2>
                   </div>
@@ -508,11 +540,11 @@
   </section>
 
   <!-- Contact Us -->
-  <section class = "contact-us">
-    <div class = "container">
-      <div class = "row">
-        <div class = "col-md-10 col-md-offset-1">
-          <div class = "section-title">
+  <section class="contact-us" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="section-title">
             <h2>Contact Us</h2>
             <p>
               Nulla blandit sem sed neque pretium mattis. Etiam consectetur eleifend felis porttitor porttitor. Phasellus sit amet augue fringilla, fringilla lectus at, tincidunt ante
@@ -521,26 +553,26 @@
         </div>
       </div>
     </div>
-    <div class ="contact-us-form">
-      <div class = "container">
+    <div class="contact-us-form">
+      <div class="container">
         <form class="form">
           <div class="row">
             <div class="col-md-4">
-              <input type = "text" class ="form-control" id= "name" placeholder = "Name" />
-              <input type= "text" class = "form-control" id = "email" placeholder="Email">
-              <input type= "text" class = "form-control" id = "subject" placeholder="Subject">
+              <input type="text" class="form-control" id="name" placeholder="Name" />
+              <input type="text" class="form-control" id="email" placeholder="Email">
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
             </div>
             <div class="col-md-8">
-              <textarea class = "form-control" id="message" rows="25" cols="10" placeholder = "Message Text..."></textarea>
-              <button type="button" class ="btn btn-default submit-btn form_submit">Send</button>
+              <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Message Text..."></textarea>
+              <button type="button" class="btn btn-default submit-btn form_submit">Send</button>
             </div>
           </div>
         </form>
       </div>
-      <div class = "container">
-        <div class = "row">
+      <div class="container">
+        <div class="row">
           <div class="col-md-12">
-            <div class = "social-icons">
+            <div class="social-icons">
               <ul>
                 <li>
                   <a href="#"><i class = "fa fa-facebook"></i></a>
@@ -560,13 +592,13 @@
   </section>
 
   <!-- Footer -->
-  <footer class = "footer">
-    <div class = "container">
-      <div class = "row">
+  <footer class="footer" >
+    <div class="container">
+      <div class="row">
         <div class="col-md-6">
-          <div id = "copyright">
+          <div id="copyright">
             <p>
-              Copyright &copy; 2017 <a href="#"> -Loso</a>
+              Copyright &copy; 2017 <a href="#home"> -Loso</a>
             </p>
           </div>
         </div>
