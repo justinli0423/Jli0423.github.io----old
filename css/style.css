@@ -601,3 +601,41 @@ p {
 .social-icons ul li a i{
   font-size: 20px;
 }
+
+/*Footer*/
+.footer{
+  background-color: #1a1a1a;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  border-bottom: 3px solid #129cf3;
+}
+
+#copyright{
+  width: 50%;
+}
+
+#copyright p{
+  color: #8c8b8a;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#copyright p a{
+  text-decoration: none;
+  color: #129cf3;
+}
+
+.scroll-top{
+  text-align: right;
+}
+
+.scroll-top a{
+  background-color: #129cf3;
+  padding: 25px;
+}
+
+.scroll-top a i{
+  color: #fff;
+  font-size: 25px;
+}
