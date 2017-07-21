@@ -468,11 +468,11 @@ p {
   -webkit-transition: all 1s;
 }
 
-.available-on-item:hover{
+.available-on-item:hover {
   background-color: #121212;
 }
 
-.available-on-item i{
+.available-on-item i {
   color: #129cf3;
   text-align: center;
   opacity: 1;
@@ -484,11 +484,11 @@ p {
   -webkit-transition: all 1s;
 }
 
-.available-on-item:hover i{
+.available-on-item:hover i {
   opacity: 0;
 }
 
-.available-on-inner{
+.available-on-inner {
   position: absolute;
   bottom: 93px;
   width: 100%;
@@ -499,13 +499,105 @@ p {
   -webkit-transition: all 1s;
 }
 
-.available-on-inner h2{
+.available-on-inner h2 {
   text-align: center;
   font-weight: 300;
   color: #d7dadb;
   font-size: 16px;
 }
 
-.available-on-item:hover div.available-on-inner{
+.available-on-item:hover div.available-on-inner {
   opacity: 1;
+}
+
+
+/*Contact us*/
+
+.contact-us .form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  background-color: transparent;
+  border: 1px solid #aeaeae;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  opacity: 0.8;
+  outline: 0px !important;
+  transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+#message {
+  height: 117px;
+  resize: none;
+}
+
+.submit-btn, .submit-btn:active, .submit-btn:focus, .submit-btn:visited {
+  background-color: transparent;
+  border: 1px solid #129cf3;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #129cf3;
+  transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.submit-btn:hover {
+  background: #129cf3;
+  color: #fff;
+  border-color: #129cf3;
+}
+
+.social-icons {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.social-icons ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-icons ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 10px;
+}
+
+.social-icons ul li a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #9d9d9d;
+  border-radius: 3px;
+  width: 45px;
+  height: 45px;
+  line-height: 49px;
+  color: #9d9d9d;
+}
+
+.social-icons ul li a:hover{
+  background: #129cf3;
+  border: 1px solid #129cf3;
+  color: #fff;
+  transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.social-icons ul li a i{
+  font-size: 20px;
 }
