@@ -120,3 +120,14 @@ $(document).ready(function(){
     })
   }, 10);
 });
+
+// Add bxslider
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    slideWidth: 292.5,
+    auto: true,
+    minSlides: 1,
+    maxSlides: 3,
+    slideMargin: 50
+  })
+});
