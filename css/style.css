@@ -14,6 +14,44 @@ p {
 }
 
 
+/*Generic css*/
+
+.section-title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.section-title h2 {
+  position: relative;
+  text-align: center;
+  color: 3333;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section-title p {
+  color: #333;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  font-size: 18px;
+  bottom: -20px;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #129cf3;
+  margin-left: -30px;
+}
+
+
 /*Header*/
 
 .header {
@@ -45,19 +83,19 @@ p {
   text-transform: uppercase;
 }
 
-.header-text p{
+.header-text p {
   color: #fff;
   font-size: 17px;
   line-height: 28px;
   font-weight: 300;
 }
 
-.header-btns{
+.header-btns {
   margin-top: 90px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
-.btn-download, .btn-download:focus, .btn-download:active, .btn-download:visited{
+.btn-download, .btn-download:focus, .btn-download:active, .btn-download:visited {
   background: transparent;
   border-color: #129cf3;
   padding-top: 10px;
@@ -73,13 +111,12 @@ p {
   -o-transition: all 1s;
 }
 
-.btn-download:hover{
+.btn-download:hover {
   background-color: #129cf3;
   color: #fff;
-
 }
 
-.btn-tour, .btn-tour:focus, .btn-tour:active, .btn-tour:visited{
+.btn-tour, .btn-tour:focus, .btn-tour:active, .btn-tour:visited {
   color: #a9adb0;
   margin-left: 20px;
   text-transform: uppercase;
@@ -92,9 +129,83 @@ p {
   -o-transition: all 1s;
 }
 
-.btn-tour:hover{
+.btn-tour:hover {
   color: #fff;
 }
+
 .header-iphone img {
   width: 100%;
+}
+
+
+/*about us */
+
+.choose-us-wrapper {
+  padding-top: 50px;
+}
+
+.about-iphone img {
+  margin-top: 8px;
+}
+
+.choose-us-title {
+  padding-bottom: 50px;
+}
+
+.choose-us-title h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  position: relative;
+}
+
+.choose-us-title h2:after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 70px;
+  height: 1px;
+  background-color: #129cf3;
+}
+
+.choose-us-title p {
+  margin-top: 40px;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.choose-us-item {
+  position: relative;
+  padding-bottom: 4px;
+  padding-left: 80px;
+}
+
+.choose-us-item div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.choose-us-item div i {
+  font-size: 55px;
+  color: #129cf3;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.choose-us-item h3 {
+  color: #343434;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.choose-us-item p {
+  color: #727272;
+  font-size: 15px;
+
 }
