@@ -25,7 +25,7 @@ $(document).ready(function() {
         'border-color': '#444'
       });
 
-      $('.navbar-brand img').css({
+      $('.navbar-brand > img').css({
         'height': '35px',
         'padding-top': '0px'
       });
@@ -37,6 +37,36 @@ $(document).ready(function() {
   });
 });
 
+// active menu on click
+$(document).ready(function(){
+  'use strict';
+  $('.navbar-nav > li > a').click(function(){
+    'use strict';
+    $('.navbar-nav > li > a').parent().removeClass("active");
+
+    $(this).parent().addClass("active");
+  });
+});
+
+// highlight navbar item on scroll
+$(document).ready(function(){
+    'use strict';
+    $(window).scroll(function(){
+      'use strict';
+      $('section').each(function(){
+        var id = $(this).attr('id');
+        var height = $(this).outerHeight();
+        var gettop = $(this).offset().top - 70;
+
+        if($(window).scrollTop() > gettop && $(window).scrollTop() < gettop + height){
+          $(".navbar-nav > li > a[href='#" + id + "']").parent().addClass('active');
+        }else{
+          $(".navbar-nav > li > a[href='#" + id + "']").parent().removeClass('active');
+
+        }
+      })
+    })
+});
 
 //Add smooth scrolling
 $(document).ready(function() {
