@@ -17,8 +17,8 @@ p {
 /*Generic css*/
 
 .section-title {
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 0;
 }
 
 .section-title h2 {
@@ -60,6 +60,12 @@ p {
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
+}
+
+.navbar-title{
+  margin-top: 7px;
+  color: #129cf3;
+  font-size: 18px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -110,11 +116,19 @@ p {
 }
 
 .header-overlay {
-  background-color: rgba(31, 31, 31, 0.75);
+  background-color: rgba(31, 31, 31, 0.9);
 }
 
 .logo {
-  padding-bottom: 50px;
+  margin-bottom: -50px;
+  color: #129cf3;
+}
+
+.me{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #129cf3;
 }
 
 .header-text h1 {
@@ -133,9 +147,16 @@ p {
   font-weight: 300;
 }
 
+
+
 .header-btns {
-  margin-top: 90px;
+  margin-top: 35px;
   margin-bottom: 50px;
+}
+
+.title-component{
+  padding-bottom: 200px;
+  /*padding-top: 50px;*/
 }
 
 .btn-download, .btn-download:focus, .btn-download:active, .btn-download:visited {
@@ -181,18 +202,28 @@ p {
 }
 
 
-/*about us */
+/*about me */
 
 .choose-us-wrapper {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .about-iphone img {
   margin-top: 8px;
 }
 
+img.about-me{
+  border: 2px solid #129cf3;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
 .choose-us-title {
   padding-bottom: 50px;
+}
+
+i.arrow-down{
+    color: #129cf3;
 }
 
 .choose-us-title h2 {
@@ -467,92 +498,6 @@ p {
   text-transform: uppercase;
   font-family: "Source Sans Pro", sans-serif;
 }
-
-
-/*Download now*/
-
-.download-now img {
-  width: 100%;
-}
-
-.available-on {
-  background-color: #1a1a1a;
-  margin-top: -8px;
-  position: relative;
-}
-
-.available-title {
-  padding-top: 75px;
-}
-
-.available-title h2 {
-  color: #fff;
-  font-size: 30px;
-}
-
-.available-title p {
-  color: #b5b5b5;
-}
-
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.available-on-item {
-  text-align: center;
-  border-left: 1px solid #0f1217;
-  min-height: 230px;
-  padding-bottom: 15px;
-  position: relative;
-  transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
-}
-
-.available-on-item:hover {
-  background-color: #121212;
-}
-
-.available-on-item i {
-  color: #129cf3;
-  text-align: center;
-  opacity: 1;
-  font-size: 40px;
-  padding-top: 90px;
-  transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
-}
-
-.available-on-item:hover i {
-  opacity: 0;
-}
-
-.available-on-inner {
-  position: absolute;
-  bottom: 93px;
-  width: 100%;
-  opacity: 0;
-  transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
-}
-
-.available-on-inner h2 {
-  text-align: center;
-  font-weight: 300;
-  color: #d7dadb;
-  font-size: 16px;
-}
-
-.available-on-item:hover div.available-on-inner {
-  opacity: 1;
-}
-
 
 /*Contact us*/
 
