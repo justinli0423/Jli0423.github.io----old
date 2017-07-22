@@ -204,7 +204,7 @@ p {
 
 /*about me */
 
-.choose-us-wrapper {
+.choose-me-wrapper {
   padding-top: 10px;
 }
 
@@ -218,7 +218,7 @@ img.about-me{
   margin-top: 40px;
 }
 
-.choose-us-title {
+.choose-me-title {
   padding-bottom: 50px;
 }
 
@@ -226,7 +226,7 @@ i.arrow-down{
     color: #129cf3;
 }
 
-.choose-us-title h2 {
+.choose-me-title h2 {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 30px;
@@ -234,7 +234,7 @@ i.arrow-down{
   position: relative;
 }
 
-.choose-us-title h2:after {
+.choose-me-title h2:after {
   content: "";
   position: absolute;
   bottom: -12px;
@@ -244,25 +244,25 @@ i.arrow-down{
   background-color: #129cf3;
 }
 
-.choose-us-title p {
+.choose-me-title p {
   margin-top: 40px;
   font-size: 19px;
   line-height: 24px;
 }
 
-.choose-us-item {
+.choose-me-item {
   position: relative;
   padding-bottom: 4px;
   padding-left: 80px;
 }
 
-.choose-us-item div {
+.choose-me-item div {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.choose-us-item div i {
+.choose-me-item div i {
   font-size: 55px;
   color: #129cf3;
   transition: all 1s;
@@ -271,14 +271,14 @@ i.arrow-down{
   -o-transition: all 1s;
 }
 
-.choose-us-item h3 {
+.choose-me-item h3 {
   color: #343434;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 800;
 }
 
-.choose-us-item p {
+.choose-me-item p {
   color: #727272;
   font-size: 15px;
 }

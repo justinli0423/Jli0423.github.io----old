@@ -135,8 +135,8 @@ $(document).ready(function(){
 // Add counters
 $(document).ready(function(){
   $('.counter-num').counterUp({
-    delay: 10,
-    time: 2000
+    delay: 15,
+    time: 1500
   });
 });
 
