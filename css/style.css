@@ -265,9 +265,7 @@ i.arrow-down {
 .left-feature-item-icon > a{
   color: #129cf3 !important;
 }
-.div > h3{
-  display: inline;
-}
+
 
 i.git-icon:hover{
   border-radius: 20%;
