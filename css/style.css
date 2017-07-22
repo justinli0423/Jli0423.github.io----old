@@ -206,6 +206,7 @@ p {
 
 .choose-me-wrapper {
   padding-top: 10px;
+  margin: 0;
 }
 
 .about-me-img img {
@@ -520,7 +521,7 @@ div.github{
 
 /*Contact us*/
 
-.contact-us .form-control {
+.contact-me .form-control {
   display: block;
   width: 100%;
   height: 50px;

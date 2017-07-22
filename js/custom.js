@@ -111,12 +111,26 @@ $(document).ready(function(){
   setInterval(function(){
     'use strict';
     var windowHeight = $(window).height();
-    var containerHeight = $(".header-container").height();
-    var padTop = windowHeight - containerHeight;
+    var headerHeight = $(".header-container").height();
+    var aboutHeight = $("#about").height();
+    var gitHeight = $("#git").height();
+    var padTopHeader = windowHeight - headerHeight;
+    var padTopAbout = windowHeight - aboutHeight;
+    var padTopGit = windowHeight - gitHeight;
 
     $(".header-container").css({
-      'padding-top': Math.round(padTop/2) + 'px',
-      'padding-bottom': Math.round(padTop/2) + 'px'
+      'padding-top': Math.round(padTopHeader/2) + 'px',
+      'padding-bottom': Math.round(padTopHeader/2) + 'px'
+    });
+
+    $("#about").css({
+      'padding-top': Math.round(padTopAbout/2) + 'px',
+      'padding-bottom': Math.round(padTopAbout/2) + 'px'
+    });
+
+    $("#git").css({
+      'padding-top': Math.round(padTopGit/2) + 'px',
+      'padding-bottom': Math.round(padTopGit/2) + 'px'
     })
   }, 10);
 });
