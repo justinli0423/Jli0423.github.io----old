@@ -116,7 +116,7 @@ p {
 }
 
 .header-overlay {
-  background-color: rgba(31, 31, 31, 0.9);
+  background-color: rgba(31, 31, 31, 0.75);
 }
 
 .logo {
@@ -208,7 +208,7 @@ p {
   padding-top: 10px;
 }
 
-.about-iphone img {
+.about-me-img img {
   margin-top: 8px;
 }
 
@@ -303,14 +303,24 @@ i.arrow-down{
   padding-bottom: 80px;
 }
 
+.center-block{
+  width: 150px;
+  height: 150px;
+}
+
+.center-block-cpp{
+  width: 133px;
+  height: 133px;
+}
+
 .carousel-indicators {
   bottom: -10px;
 }
 
 .carousel-inner .item img {
-  border: 2px solid #129cf3;
+  /*border: 2px solid #129cf3;
   border-radius: 50%;
-  padding: 3px;
+  padding: 3px;*/
 }
 
 .testimonial-caption {
@@ -343,9 +353,9 @@ i.arrow-down{
 }
 
 
-/*features*/
+/*git*/
 
-.features-inner-wrapper {
+.git-inner-wrapper {
   padding-top: 30px;
   padding-bottom: 70px;
 }
@@ -384,10 +394,19 @@ i.arrow-down{
   line-height: 25px;
 }
 
-.feature-iphone img {
-  width: 100%;
+div.github{
+  margin-left: 35px !important;
+  margin-right: 45px !important;
+  padding-top: 68px;
 }
 
+.github-git{
+  font-size: 350px !important;
+}
+
+.right-feature-col{
+  padding-left: 36px;
+}
 .right-feature-item {
   position: relative;
   padding-left: 90px;
