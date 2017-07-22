@@ -114,9 +114,11 @@ $(document).ready(function(){
     var headerHeight = $(".header-container").height();
     var aboutHeight = $("#about").height();
     var gitHeight = $("#git").height();
+    var contactHeight = $("#contact").height();
     var padTopHeader = windowHeight - headerHeight;
     var padTopAbout = windowHeight - aboutHeight;
     var padTopGit = windowHeight - gitHeight;
+    var padTopContact = windowHeight - contactHeight;
 
     $(".header-container").css({
       'padding-top': Math.round(padTopHeader/2) + 'px',
@@ -131,7 +133,12 @@ $(document).ready(function(){
     $("#git").css({
       'padding-top': Math.round(padTopGit/2) + 'px',
       'padding-bottom': Math.round(padTopGit/2) + 'px'
-    })
+    });
+
+    $("#contact").css({
+      'padding-top': Math.round(padTopContact/2) + 'px',
+      'padding-bottom': Math.round(padTopContact/2) + 'px'
+    });
   }, 10);
 });
 
