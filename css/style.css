@@ -619,6 +619,7 @@ div.github{
 
 #copyright{
   width: 50%;
+  margin-left: 0;
 }
 
 #copyright p{
@@ -637,12 +638,6 @@ div.github{
   text-align: right;
 }
 
-.scroll-top a{
-  background-color: #129cf3;
-  padding: 25px;
-}
-
 .scroll-top a i{
-  color: #fff;
-  font-size: 25px;
+  font-size: 30px;
 }
