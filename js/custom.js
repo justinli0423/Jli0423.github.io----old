@@ -1,5 +1,9 @@
-// show and hide nav bar
+// load page on top
+$(window).on('beforeunload', function(){
+  $(window).scrollTop(0);
+});
 
+// show and hide nav bar
 $(document).ready(function() {
   'use strict';
   $(window).scroll(function() {

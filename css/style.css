@@ -51,8 +51,10 @@ p {
   margin-left: -30px;
 }
 
+
 /*Nav bar*/
-.navbar-default{
+
+.navbar-default {
   background-color: transparent;
   border-color: #444;
   z-index: 110;
@@ -62,13 +64,13 @@ p {
   -o-transition: all 1s;
 }
 
-.navbar-title{
+.navbar-title {
   margin-top: 7px;
   color: #129cf3;
   font-size: 18px;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   color: #b5b5b5;
   font-family: "Raleway", sans-serif;
   transition: all 1s;
@@ -77,29 +79,30 @@ p {
   -o-transition: all 1s;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav>li>a:hover {
   color: #129cf3;
 }
-.navbar-default .navbar-nav > li > a:focus{
+
+.navbar-default .navbar-nav>li>a:focus {
   color: #b5b5b5;
 }
+
 .navbar-brand {
   padding: 9px 15px;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   transition: all 1s;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus{
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background-color: transparent;
   color: #129cf3;
 }
+
 
 /*Header*/
 
@@ -124,7 +127,7 @@ p {
   color: #129cf3;
 }
 
-.me{
+.me {
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -147,14 +150,12 @@ p {
   font-weight: 300;
 }
 
-
-
 .header-btns {
   margin-top: 35px;
   margin-bottom: 50px;
 }
 
-.title-component{
+.title-component {
   padding-bottom: 200px;
   /*padding-top: 50px;*/
 }
@@ -213,7 +214,7 @@ p {
   margin-top: 8px;
 }
 
-img.about-me{
+img.about-me {
   border: 2px solid #129cf3;
   border-radius: 50%;
   margin-top: 40px;
@@ -223,8 +224,8 @@ img.about-me{
   padding-bottom: 50px;
 }
 
-i.arrow-down{
-    color: #129cf3;
+i.arrow-down {
+  color: #129cf3;
 }
 
 .choose-me-title h2 {
@@ -255,6 +256,27 @@ i.arrow-down{
   position: relative;
   padding-bottom: 4px;
   padding-left: 80px;
+}
+
+.right-feature-item-icon > a{
+  color: #129cf3 !important;
+}
+
+.left-feature-item-icon > a{
+  color: #129cf3 !important;
+}
+.div > h3{
+  display: inline;
+}
+
+i.git-icon:hover{
+  border-radius: 20%;
+  background-color: #129cf3;
+  color: #fff;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
 }
 
 .choose-me-item div {
@@ -304,12 +326,12 @@ i.arrow-down{
   padding-bottom: 80px;
 }
 
-.center-block{
+.center-block {
   width: 150px;
   height: 150px;
 }
 
-.center-block-cpp{
+.center-block-cpp {
   width: 133px;
   height: 133px;
 }
@@ -395,19 +417,20 @@ i.arrow-down{
   line-height: 25px;
 }
 
-div.github{
+div.github {
   margin-left: 35px !important;
   margin-right: 45px !important;
   padding-top: 68px;
 }
 
-.github-git{
+.github-git {
   font-size: 350px !important;
 }
 
-.right-feature-col{
+.right-feature-col {
   padding-left: 36px;
 }
+
 .right-feature-item {
   position: relative;
   padding-left: 90px;
@@ -519,6 +542,7 @@ div.github{
   font-family: "Source Sans Pro", sans-serif;
 }
 
+
 /*Contact us*/
 
 .contact-me .form-control {
@@ -596,7 +620,7 @@ div.github{
   color: #9d9d9d;
 }
 
-.social-icons ul li a:hover{
+.social-icons ul li a:hover {
   background: #129cf3;
   border: 1px solid #129cf3;
   color: #fff;
@@ -606,39 +630,41 @@ div.github{
   -webkit-transition: all 1s;
 }
 
-.social-icons ul li a i{
+.social-icons ul li a i {
   font-size: 20px;
 }
 
+
 /*Footer*/
-.footer{
+
+.footer {
   background-color: #1a1a1a;
   padding-bottom: 35px;
   padding-top: 35px;
   border-bottom: 3px solid #129cf3;
 }
 
-#copyright{
+#copyright {
   width: 50%;
   margin-left: 0;
 }
 
-#copyright p{
+#copyright p {
   color: #8c8b8a;
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
 }
 
-#copyright p a{
+#copyright p a {
   text-decoration: none;
   color: #129cf3;
 }
 
-.scroll-top{
+.scroll-top {
   text-align: right;
 }
 
-.scroll-top a i{
+.scroll-top a i {
   font-size: 30px;
 }
