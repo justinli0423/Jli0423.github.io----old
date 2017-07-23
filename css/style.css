@@ -55,7 +55,7 @@ p {
 /*Nav bar*/
 
 .navbar-default {
-  background-color: transparent;
+  background-color: rgba(59, 59, 59, 0.7);
   border-color: #444;
   z-index: 110;
   transition: all 1s;

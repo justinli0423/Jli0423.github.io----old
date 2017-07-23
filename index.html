@@ -34,7 +34,7 @@
 <body>
 
   <!-- Header -->
-  <header class="header" id="home">
+  <header class="header">
     <!-- Nav bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -56,7 +56,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="nav-item" href="#home">HOME</a></li>
+            <li class = "active"><a class="nav-item" href="#home">HOME</a></li>
             <li><a class="nav-item" href="#about">ABOUT ME</a></li>
             <li><a class="nav-item" href="#git">GIT</a></li>
             <li><a class="nav-item" href="#counter">HIT ME UP</a></li>
@@ -66,42 +66,44 @@
       </div>
       <!-- /.container-fluid -->
     </nav>
-    <div class="header-overlay">
+    <section class = "home" id="home">
+      <div class="header-overlay">
 
-      <div class="container header-container">
+        <div class="container header-container">
 
-        <div class="row">
+          <div class="row">
 
-          <div class="col-md-12">
-            <!-- Logo -->
-            <div class="logo text-left">
-              <h1>ıllıllı נυsтιη ıllıllı</h1>
+            <div class="col-md-12">
+              <!-- Logo -->
+              <div class="logo text-left">
+                <h1>ıllıllı נυsтιη ıllıllı</h1>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-8 title-component">
-            <div class="header-text">
-              <!-- Title & Desc -->
-              <h1>Welcome friends</h1>
-              <p>
-                Input cheesy line here to take up space
-              </p>
+          <div class="row">
+            <div class="col-md-8 title-component">
+              <div class="header-text">
+                <!-- Title & Desc -->
+                <h1>Welcome friends</h1>
+                <p>
+                  Input cheesy line here to take up space
+                </p>
+              </div>
+              <div class="header-btns">
+                <!-- Header buttons -->
+                <a class="btn btn-download wow fadeInLeft nav-item" onClick="window.open('./pdf/JustinLiResumev4.pdf')">Resume</a>
+                <a class="btn btn-tour wow fadeInRight nav-item" href="#about">Learn more about me!
+                  <i class="fa fa-angle-down"></i>
+                </a>
+              </div>
             </div>
-            <div class="header-btns">
-              <!-- Header buttons -->
-              <a class="btn btn-download wow fadeInLeft nav-item" onClick="window.open('./pdf/JustinLiResumev4.pdf')">Resume</a>
-              <a class="btn btn-tour wow fadeInRight nav-item" href="#about">Learn more about me!
-                <i class="fa fa-angle-down"></i>
-              </a>
+            <div class="col-md-3 col-md-offset-1">
+              <img class="me" src="images/me.jpg" alt="me!" />
             </div>
-          </div>
-          <div class="col-md-3 col-md-offset-1">
-            <img class="me" src="images/me.jpg" alt="me!" />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </header>
 
   <!-- About me -->
