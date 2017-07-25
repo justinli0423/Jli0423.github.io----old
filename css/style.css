@@ -266,6 +266,20 @@ i.arrow-down {
   color: #129cf3 !important;
 }
 
+.git-anchor{
+  text-decoration: none !important;
+}
+
+.title-link:hover {
+  color: #129cf3;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+
+}
+
+
 
 i.git-icon:hover{
   border-radius: 20%;
