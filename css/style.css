@@ -13,11 +13,14 @@ p {
   font-size: 14px;
 }
 
+:focus{
+  outline: none !important;
+}
 
 /*Generic css*/
 
 h4 {
-  font-size: 20px; 
+  font-size: 20px;
   color: #000;
   font-weight: 600;
 }
@@ -329,7 +332,6 @@ i.git-icon:hover{
   font-size: 15px;
 }
 
-
 /*Testimonial*/
 
 .testimonial {
@@ -401,10 +403,10 @@ i.git-icon:hover{
 
 /*git*/
 
-.git-inner-wrapper {
+.git-inner-wrapper{
   padding-top: 30px;
-  padding-bottom: 70px;
 }
+
 
 .left-feature-item {
   position: relative;
