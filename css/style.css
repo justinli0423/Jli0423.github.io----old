@@ -16,6 +16,12 @@ p {
 
 /*Generic css*/
 
+h4 {
+  font-size: 20px; 
+  color: #000;
+  font-weight: 600;
+}
+
 .section-title {
   padding-top: 50px;
   padding-bottom: 0;
@@ -51,6 +57,10 @@ p {
   margin-left: -30px;
 }
 
+.caption{
+  font-size: 18px;
+  color: #969696;
+}
 
 /*Nav bar*/
 
